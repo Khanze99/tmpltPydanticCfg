@@ -1,0 +1,11 @@
+service:
+  name: ServiceDev
+  mode: DEV
+  host: dev.com
+  port: 9090
+
+  admin:
+    uri: /admin
+
+database:
+  host: postgresql://devuser@devhost:5433
